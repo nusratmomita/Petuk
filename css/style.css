@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tiktok-sans-font {
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: normal;
+}
+
+.container{
+    max-width: 1420px;
+    margin: auto;
+}
+
+.debug{
+    border: 2px solid red;
+}
+
+ul>li{
+    list-style: none;
+}
+:root{
+    --primary_color: #064C50;
+    --secondary_color: #6B7280;
+    --accent_color: #111827;
+}
+
+
+
+/* header */
+.offer_div{
+    background-color: #bdeb69;
+}
+
+.offer_swiper{
+    position: relative;
+}
+
+.offer_sentence{
+    color: #083928;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-image: none !important;
+}
+
+.button-next i,
+.button-prev i {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 30%;
+    pointer-events: auto !important;
+    z-index: 10 !important;
+    cursor: pointer;
+}
+
+.button-next i{
+    right: 70px;
+}
+
+.button-prev i{
+    left: 70px;
+}
+
+.swiper-button-disabled i{
+    color: gray !important;
+}
+
+.swiper-button-disabled {
+    pointer-events: none;
+}
+
+/* header 2nd */
+.mini_navbar{
+    display: flex;
+}
