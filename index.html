@@ -58,28 +58,124 @@
             <div class="container">
                 <div class="mini_navbar">
                     <div class="mini_nb_left_side">
-                        <ul>
+                        <ul class="mini_nav_li">
                             <li>About Us</li>
                             <li>FAQ</li>
                             <li>My Account</li>
-                            <li>Track Order</li>
+                            <li>Order Tracking</li>
                         </ul>
-                        <h5>Order now and get it within 15 min.!</h5>
+                        <div class="order_min">
+                            <svg class="order_min_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap-icon lucide-zap">
+                                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                            </svg>
+                            <h5 class="order_time_text">Order now and get it within 15 min.!</h5>
+                        </div>
                     </div>
 
                     <div class="mini_nb_right_side">
-                        <ul>
+                        <ul class="mini_nav_li_right">
                             <li>Contact</li>
-                            <li>English</li>
-                            <li>USD</li>
+                            <li>English<i class="fa-solid fa-angle-down"></i></li>
+                            <li>USD<i class="fa-solid fa-angle-down"></i></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- header 3rd part -->
+        <div class="container">
+            <div class="header_middle_part">
+                <!-- logo -->
+                <a href="#">
+                    <img class="siteLogo" src="./assets/petukLogo.png" alt="petuk logo">
+                </a>
+                <!-- location + search -->
+                <div class="location_search">
+                    <div class="location">
+                        <div class="location_icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="location_text">
+                            <h4>ALL</h4>
+                            <h5>your location</h5>
+                        </div>
+                    </div>
+                    <!-- search -->
+                    <div class="search">
+                        <input class="search_input" type="text" name="search_input" id="search" placeholder="Search Popular Products...">
+                        <div class="search_icon_div">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- user details -->
+                <div class="user_details">
+                    <!-- user profile -->
+                    <!-- user img -->
+                    <div class="user_img">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <!-- favorites -->
+                    <div class="favorites">
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="no_fav">
+                            <h5>0</h5>
+                        </div>
+                    </div>
+                    <!-- repeat -->
+                    <div class="repeat">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-repeat-icon lucide-repeat"> <path d="m17 2 4 4-4 4"></path> <path d="M3 11v-1a4 4 0 0 1 4-4h14"></path> <path d="m7 22-4-4 4-4"></path> <path d="M21 13v1a4 4 0 0 1-4 4H3"></path> </svg>
+                    </div>
+                    <!-- cart -->
+                    <div class="cart">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_219_5779)"> <path d="M1.49997 8.30001L3.69997 20.7C3.89997 21.7 4.69997 22.4 5.69997 22.4H18.4C19.4 22.4 20.2 21.7 20.4 20.7L22.6 8.30001C22.7 7.90001 22.4 7.60001 22 7.60001H2.09997C1.69997 7.60001 1.39997 7.90001 1.49997 8.30001Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6.69995 6.90001C6.69995 4.00001 9.09995 1.60001 12 1.60001C14.9 1.60001 17.3 4.00001 17.3 6.90001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_219_5779"> <rect width="24" height="24" fill="white"></rect> </clipPath> </defs> </svg>
+                        <div class="items">
+                            <h5>1</h5>
+                        </div>
+                    </div>
+                    <h4 class="total_money">$13.47 <br> <span> Your Cart</span></h4>
+                </div>
+            </div>
+        </div>
+
+        <hr class="header_hr">
+        <!-- header main nav -->
+        <div class="container">
+            <div class="header_main_menu">
+                <!-- navlinks -->
+                <ul class="navLinks">
+                    <li> <a href="#">Home</a><i class="fa-solid fa-angle-down down_arrow"></i> </li>
+                    <li> <a href="#">Shop</a><i class="fa-solid fa-angle-down down_arrow"></i> </li>
+                    <li> <a href="#">Beverages</a> </li>
+                    <li> <a href="#">Bakery</a> </li>
+                    <li> <a href="#">Categories</a> <i class="fa-solid fa-angle-down down_arrow"></i></li>
+                    <li> <a href="#">Blog</a> </li>
+                    <li> <a href="#">Contact</a> </li>
+                </ul>
+                <!-- best sell -->
+                <div class="best_sell">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent-icon lucide-percent">
+                      <line x1="19" x2="5" y1="5" y2="19"></line>
+                      <circle cx="6.5" cy="6.5" r="2.5"></circle>
+                      <circle cx="17.5" cy="17.5" r="2.5"></circle>
+                    </svg>
+                    <h4>Best Seller</h4>
+                    <h4 class="sale_badge">SALE</h4>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main></main>
+    <main>
+        <!-- banner section -->
+        <div class="container">
+            <div class="banner_slide">
+                
+            </div>
+        </div>
+    </main>
 
     <footer></footer>
 

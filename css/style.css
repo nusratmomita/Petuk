@@ -73,11 +73,11 @@ ul>li{
 }
 
 .button-next i{
-    right: 85px;
+    right: 95px;
 }
 
 .button-prev i{
-    left: 85px;
+    left: 95px;
 }
 
 .swiper-button-disabled i{
@@ -91,4 +91,239 @@ ul>li{
 /* header 2nd */
 .mini_navbar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.mini_nb_left_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mini_nav_li,.mini_nav_li_right{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 13px;
+    color: var(--secondary_color);
+    cursor: pointer;
+}
+
+.mini_nav_li li:hover,.mini_nav_li_right li:hover{
+    color: black;
+}
+
+.order_min{
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.order_time_text,.order_min_icon{
+    color: rgb(101, 163, 13);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* header 3rd */
+.header_middle_part{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.header_middle_part{
+    padding-top: 35px;
+}
+
+.siteLogo{
+    width: 167px;
+}
+
+.location_search{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.location_icon{
+    background-color: rgb(6, 76, 80);
+    width: 2.625rem;
+    height: 2.625rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location{
+    display: flex;
+    gap: 0.875rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.location_icon i{
+    color: white;
+}
+
+.location_text h4{
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+
+.location_text h5{
+    font-size: 0.625rem;
+    letter-spacing: -0.01em;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.search{
+    position: relative;
+}
+
+.search_input{
+    background-color: rgb(243, 244, 246);
+    width: 677px !important;
+    padding: 20px 20px 20px 55px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--secondary_color);
+}
+
+.search_icon_div i{
+    position: absolute;
+    top: 22px;
+    left: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--secondary_color);
+}
+
+.user_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.user_img{
+    background-color: #bdeb69;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_img i{
+    color: rgb(0, 0, 0);
+}
+
+.favorites,.repeat,.cart{
+    background-color: transparent;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    position: relative;
+}
+
+.no_fav,.items h5{
+    background-color: rgb(244, 63, 94);
+    border-radius: 50%;
+    min-width: 1.0625rem;
+    height: 1.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+
+.cart svg{
+    fill: white;
+}
+
+.no_fav h5,.items h5{
+    color: white;
+}
+
+.total_money{
+    font-size: 15px;
+}
+
+.total_money span{
+    color: #000000;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.header_hr{
+    background-color: rgb(206, 206, 206);
+    border: none;
+    height: 1px;
+    margin-top: 20px;
+}
+
+/* header_main_menu */
+.header_main_menu{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.down_arrow{
+    margin-left: 4px;
+}
+
+.best_sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.sale_badge{
+    background-color: rgb(244, 63, 94);
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 8px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
