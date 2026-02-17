@@ -9,11 +9,11 @@ var swiper = new Swiper(".offer_swiper", {
 });
 
 var swiper = new Swiper(".banner_swiper", {
-  loop: false,
+  loop: true,
   slidesPerView: 1,
   navigation: {
-    nextEl: ".banner_button-next",
-    prevEl: ".banner_button-prev",
+    nextEl: ".banner_button_next",
+    prevEl: ".banner_button_prev",
     clickable: true
   },
 });
